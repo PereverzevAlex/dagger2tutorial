@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.smarsoft.pereverzev.dagger2tutorial"
+        applicationId "com.smartsoft.pereverzev.dagger2tutorial"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -17,9 +17,9 @@ android {
             minifyEnabled false
         }
     }
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
-    }
+
+    sourceSets.main.java.srcDirs += 'src/main/kotlin'
+
 }
 
 dependencies {
